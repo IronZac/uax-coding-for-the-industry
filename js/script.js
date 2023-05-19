@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Interacción 2: Mostrar u ocultar instrucciones
 document.addEventListener('DOMContentLoaded', function() {
   var btnOcultar = document.getElementById('btn-ocultar');
-  var recetaInstrucciones = document.getElementById('receta-instrucciones');
+  var recetaInstrucciones = document.getElementById('preparacion');
 
   btnOcultar.addEventListener('click', function() {
     if (recetaInstrucciones.style.display === 'none') {
